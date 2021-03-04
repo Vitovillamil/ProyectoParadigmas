@@ -4,176 +4,291 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+    <title>Cuestion de hambre</title>
   </head>
   <body>
-
     <nav class="navbar navbar-expand-lg sticky-top bg-dark navbar-dark">
   		<div class="container-fluid">
     		<a class="navbar-brand" href="#">
-      			<img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-top">
-      			Cuestión de Hambre
+      		<img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-top">
+      		Cuestión de Hambre
     		</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
 
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Conoce del juego
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Reglas</a></li>
-            <li><a class="dropdown-item" href="#">Objetivos</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Conoce del juego
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Reglas</a></li>
+                <li><a class="dropdown-item" href="#">Objetivos</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+            	<a class="nav-link" href="#Team">Equipo de trabajo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Ir Al Juego (¡MUY PRONTO!)</a>
+            </li>
           </ul>
-        </li>
-        <li class="nav-item">
-        	<a class="nav-link" href="#Team">Equipo de trabajo</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Ir Al Juego (¡MUY PRONTO!)</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+        </div>
+      </div>
+    </nav>
 	
 
-	<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+	<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="margin-bottom: 2vh">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="src/img/tabla1.jpg" class="d-block w-100" alt="">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Preparate para encontrar y superar los diferentes niveles</h5>
+          <p>Siempre siendo más agil para conseguir tus metas</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="src/img/tabla2.jpg" class="d-block w-100" alt="">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>¿Podras pasar pruebas y derrotar a tus enemigos?</h5>
+          <p>Preparate por que esto es CUESTIÓN DE HAMBRE</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="src/img/tabla3.jpg" class="d-block w-100" alt="">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Espera muy pronto nuestro gran lanzamiento</h5>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
   </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://image.shutterstock.com/image-vector/abstract-background-modern-hipster-futuristic-600w-1441782806.jpg" class="d-block w-100" alt="https://image.shutterstock.com/image-vector/abstract-background-modern-hipster-futuristic-600w-1441782806.jpg">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="https://image.shutterstock.com/image-vector/abstract-background-modern-hipster-futuristic-600w-1441782806.jpg" class="d-block w-100" alt="https://image.shutterstock.com/image-vector/abstract-background-modern-hipster-futuristic-600w-1441782806.jpg">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="https://image.shutterstock.com/image-vector/abstract-background-modern-hipster-futuristic-600w-1441782806.jpg" class="d-block w-100" alt="https://image.shutterstock.com/image-vector/abstract-background-modern-hipster-futuristic-600w-1441782806.jpg">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
 	
 	
 	
 
-	<div class="container">
+	<div class="container" style="padding: 5vh 0;">
   		<div class="row">
-  			<h2 id="ReglasObjetivos">REGLAS Y OBJETIVOS DEL JUEGO</h2>
-  			<div class="col-2">
-				<button style="width: 100%;margin-bottom: 10vh" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Ver  todas las reglas</button>  		
-				<button style="width: 100%;margin-bottom: 10vh" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#Objetivos" aria-expanded="false" aria-controls="Objetivos">Objetivo</button>
-				<button style="width: 100%;margin-bottom: 10vh" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#Obstaculos" aria-expanded="false" aria-controls="Obstaculos">Obstaculos</button>
-				<button style="width: 100%;margin-bottom: 10vh" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#Incentivos" aria-expanded="false" aria-controls="Incentivos">Incentivos</button>
-				<button style="width: 100%;margin-bottom: 10vh" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#Reglas" aria-expanded="false" aria-controls="Reglas">Regla</button> 				 				
-
+  			<h2 id="ReglasObjetivos">CONOCE NUESTRO JUEGO</h2>
+        <div class="col-4">
+          <img src="">
+        </div>
+        <div class="col-4">
+          <p>Presiona los botones de la derecha para conocer un poco más sobre nuestro juego</p>
+        </div>       
+  			<div class="col-4">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ObjetivosModel">Objetivos</button>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ObstaculosModel">Obstaculos</button>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#IncentivosModel">Incentivos</button>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ReglasModel">Reglas</button>
   			</div>
 
   			<div class="col-10">
-  				<div class="row">
-  					<div class="col-12">
-						<div class="collapse multi-collapse" id="Reglas" style="margin-bottom: 4vh">
-							<div class="card card-body">
-								<p>Tienes 3 vidas ¡APROVECHALAS! veras el contador representado en siluetas en la parte superior de la pantalla.</p>
-        						<p>Mantén tu nivel de vida a más de 50%, de lo contrario STICK irá más lento</p>
-							</div>
-						</div>
-					</div>
-					<div class="col">
-						<div class="collapse multi-collapse" id="Reglas" style="margin-bottom: 4vh">
-							<div class="card card-body"> 
-								<p>Tienes que recoger los quesos para alimentar a los ratoncitos</p>
-      						</div>
-    					</div>
-  					</div>
-					
-					<div class="col">
-						<div class="collapse multi-collapse" id="Reglas" style="margin-bottom: 4vh">
-							<div class="card card-body">
-								<p>En la parte central inferior veras una barra de progreso en donde sabras cuanto te hace falta para cumplir el nivel.</p>
-							</div>
-						</div>
-					</div> 
-				</div>
+  				
   			</div>
-  			<p>
 				
 
 				
-			</p>
   		</div>
 	</div>
 
 
 
 
-	<footer class="bg-dark" style="padding-top:5vh;margin-top: 2vh;background-image: url(src/img/fondo_queso.jpg);background-size: 50%;" id="Team">
+
+	<footer class="bg-dark" style="padding-top:5vh;margin-top: 2vh;" id="Team">
 		<div class="container">
 			<div class=row>
-				<div class="col-4">
+        <div class="col-3">
+          <p style="color:white">Estudiantes de Tecnología en desarrollo de software e Ingenieria de sistemas en el Politécnico Grancolombiano</p>
+          <img src="src/img/logo-poli.png" style="background: white;padding: 2vh;margin-top: 4vh;">
+        </div>
+				<div class="col-3">
 					<div class="card text-center" style="width: 100%; margin-bottom: 5vh">
-						<img src="..." class="card-img-top" alt="...">
+						<img src="src/img/tania.jpeg" class="card-img-top" alt="...">
 						<div class="card-body">
-							<h5 class="card-title">Tania Katherine Rocha Hueso</h5>
-    						<h6 class="card-subtitle mb-2 text-muted">Estudiante de Tecnología en desarrollo de software</h6>
+							<h6 class="card-title">Tania Katherine Rocha Hueso</h6>
 					  	</div>
 					</div>
 				</div>
-				<div class="col-4">
+				<div class="col-3">
 					<div class="card text-center" style="width: 100%; margin-bottom: 5vh">
-						<img src="..." class="card-img-top" alt="...">
+						<img src="src/img/orlando.png" class="card-img-top" alt="...">
 						<div class="card-body">
-							<h5 class="card-title">Orlando Alcalá Vargas</h5>
-    						<h6 class="card-subtitle mb-2 text-muted">Estudiante de Ingenieria de sistemas</h6>
+							<h6 class="card-title">Orlando Alcalá Vargas</h6>
 					  	</div>
 					</div>
 				</div>
-				<div class="col-4">
+				<div class="col-3">
 					<div class="card text-center" style="width: 100%; margin-bottom: 5vh">
-						<img src="..." class="card-img-top" alt="...">
+						<img src="src/img/javier.jpg" class="card-img-top" alt="...">
 						<div class="card-body">
-							<h5 class="card-title">Javier Antonio Villamil Gutierrez</h5>
-    						<h6 class="card-subtitle mb-2 text-muted">Estudiante de Ingenieria de sistemas</h6>
+							<h6 class="card-title">Javier Antonio Villamil Gutierrez</h6>
 					  	</div>
 					</div>
 				</div>
 			</div>
 		</div>
+    <div class="container-fluid" style="text-align: center; color:#212529; background: white">
+      <div class="row">
+        <p style="padding: 1vh; margin: 0;">DERECHOS RESERVADOS 2021</p>
+      </div>
+    </div>
 	</footer>
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="ObjetivosModel" tabindex="-1" aria-labelledby="ObjetivosModelLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ObjetivosModelLabel">Objetivos del juego</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Tu objetivo principal es SOBREVIVIR, tendras que ir en busca de pedazos de quesos para alimentar a tus ratoncitos. Ten cuidado no sabres quien te esta observando y te podria cazar.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="ObstaculosModel" tabindex="-1" aria-labelledby="ObstaculosModelLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ObstaculosModelLabel">Obstaculos del juego</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>El veneno: si la tomas por accidente tu velocidad de movimiento disminuira considerablemente</p>
+        <p>La escopa: si te golpea perderas un porcentaje de tu vida</p>
+        <p>El gato: si te atrapa perderas una vida y volveras a tu punto de partida anterior</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="IncentivosModel" tabindex="-1" aria-labelledby="IncentivosModelLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="IncentivosModelLabel">Incentivos del juego</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>El pan: Al encontrar pan tu vida se recuperara un 10%</p>
+        <p>La salchicha: Cuando comas una salchicha tu velocidad aumentará</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="ReglasModel" tabindex="-1" aria-labelledby="ReglasModelLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ReglasModelLabel">Reglas del juego</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Tienes 3 vidas ¡APROVECHALAS! veras el contador representado en siluetas en la parte superior de la pantalla.</p>
+        <p>Mantén tu nivel de vida a más de 50%, de lo contrario STICK irá más lento</p>
+        <p>En la parte central inferior veras una barra de progreso en donde sabras cuanto te hace falta para cumplir el nivel.</p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
   </body>
 </html>
+
+
+
+
+<style type="text/css">
+  .modal-dialog.modal-dialog-centered.modal-dialog-scrollable {
+    width: 90%!important;
+    margin: 5%;
+    max-width: 100%;
+  }
+  .modal-header {
+    background-image: url(src/img/fondo_queso.jpg);
+    background-size: 50%;
+    margin: 0!important;
+    padding: 3vh 10vh 4vh 15vh;
+}
+  .modal-footer {
+}
+  
+
+.modal-title {
+    color: #9e4200;
+    font-size: 6vh;
+}
+
+button.btn.btn-secondary {
+    background: #502200;
+    color: #f7d977;
+}
+.modal-body {
+    padding: 5vh 15vh;
+}
+.col-4 button.btn.btn-primary {
+    width: 100%;
+    margin-bottom: 5vh;
+}
+.carousel-caption.d-none.d-md-block {
+    background: #eae6e6ad;
+    color: black;
+}
+h2#ReglasObjetivos {
+    border-bottom: 2px solid;
+    margin: 10vh 0 7vh;
+    padding-bottom: 2vh;
+}
+</style>
